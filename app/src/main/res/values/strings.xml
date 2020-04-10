@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RichRichieApp</string>
+    <string name="create_channel">Create Channel</string>
+    <string name="about_channel">About Channel</string>
+    <string name="title">Title (*)</string>
+    <string name="category">Category (*)</string>
+    <string name="related_to">Related to</string>
+    <string name="participants">Participants</string>
+    <string name="communication">Communication</string>
+    <string name="general"><u>General</u></string>
+</resources>

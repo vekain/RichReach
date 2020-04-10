@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/dimen_5sp"
+    android:layout_height="wrap_content">
+
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true">
+
+       <TextView
+           android:id="@+id/relatedName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="relatedName"
+           android:textStyle="bold"
+           android:textColor="@color/colorPrimaryDark"
+           android:textSize="@dimen/dimen_16sp"/>
+
+       <TextView
+           android:id="@+id/actionTextView"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="relatedName"
+           android:layout_marginTop="-2dp"
+           android:layout_below="@+id/relatedName"
+           android:textColor="@color/colorPrimaryDark"
+           android:textSize="@dimen/dimen_12sp"/>
+
+       <TextView
+           android:id="@+id/messageDateTime"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="relatedName"
+           android:layout_marginTop="-2dp"
+           android:layout_below="@+id/actionTextView"
+           android:textColor="@color/colorPrimaryDark"
+           android:textSize="@dimen/dimen_12sp"/>
+
+       <TextView
+           android:id="@+id/newCustomerText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/dimen_10sp"
+           android:paddingEnd="@dimen/dimen_10sp"
+           android:paddingTop="@dimen/dimen_5sp"
+           android:paddingBottom="@dimen/dimen_5sp"
+           android:background="@drawable/buttonbackgroundenabled"
+           android:layout_marginStart="@dimen/dimen_10sp"
+           android:text="New Potential customer at"
+           android:layout_centerVertical="true"
+           android:gravity="end"
+           android:layout_toEndOf="@+id/relatedName"
+           android:textColor="@color/colorPrimaryDark"
+           android:textSize="@dimen/dimen_14sp"/>
+
+   </RelativeLayout>
+
+
+</RelativeLayout>

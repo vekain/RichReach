@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_dialog"
+    android:paddingStart="@dimen/dimen_10sp"
+    android:paddingEnd="@dimen/dimen_10sp"
+    android:paddingTop="@dimen/dimen_16sp"
+    android:paddingBottom="@dimen/dimen_16sp">
+
+    <TextView
+        android:id="@+id/dialogHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_46sp"
+        android:textSize="@dimen/dimen_16sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="Create Channel Category"/>
+
+    <ImageView
+        android:id="@+id/closeDialogButton"
+        android:layout_width="@dimen/dimen_30sp"
+        android:layout_height="@dimen/dimen_30sp"
+        android:src="@drawable/ic_close_white_24dp"
+        android:tint="@color/colorPrimaryDark"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/app_name"
+        android:layout_margin="@dimen/dimen_5sp"/>
+
+    <View
+        android:id="@+id/topSeparatorView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/dialogHeading"
+        android:background="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/categoryNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_46sp"
+        android:background="@null"
+        android:inputType="text"
+        android:hint="Enter category name here .."
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/topSeparatorView"/>
+
+    <View
+        android:id="@+id/bottomSeparatorView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/categoryNameTextView"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/addCategoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_40sp"
+        android:layout_below="@+id/bottomSeparatorView"
+        android:text="Create"
+        android:textColor="@android:color/white"
+        android:paddingStart="@dimen/dimen_24sp"
+        android:paddingEnd="@dimen/dimen_24sp"
+        android:layout_marginTop="@dimen/dimen_16sp"
+        android:layout_marginBottom="@dimen/dimen_16sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonbackgroundenabled"/>
+
+
+</RelativeLayout>
